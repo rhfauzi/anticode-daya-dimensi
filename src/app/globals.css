@@ -2,6 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: "TSTAR Pro Regular";
+	src: url("/fonts/TStarProRegular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "TSTAR Pro Bold";
+	src: url("/fonts/TStarProBold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "TSTAR Pro Light";
+	src: url("/fonts/TStarProLight.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "TSTAR Pro Medium";
+	src: url("/fonts/TStarProMedium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+.font-tstar-regular {
+	font-family: "TSTAR Pro", sans-serif;
+}
+
+.font-tstar-bold {
+	font-family: "TSTAR Pro Bold", sans-serif;
+}
+
+.font-tstar-light {
+	font-family: "TSTAR Pro Light", sans-serif;
+}
+
+.font-tstar-medium {
+	font-family: "TSTAR Pro Medium", sans-serif;
+}
+
 * {
 	margin: 0;
 }

@@ -17,42 +17,58 @@ const Navbar = () => {
 					/>
 				</Link>
 				<ul className="flex gap-x-10">
-					<li className={`nav-item text-lg text-[#FFFFFFCC]`}>
+					<li
+						className={`font-tstar nav-item text-lg text-[#FFFFFFCC] font-tstar-bold`}
+					>
 						<Link href="/" className={"text-white active-link"}>
 							Home
 						</Link>
 					</li>
-					<li className={` nav-item text-lg text-[#FFFFFFCC]`}>
+					<li
+						className={` font-tstar nav-item text-lg text-[#FFFFFFCC] font-tstar-bold`}
+					>
 						<Link href="/about" className={`text-white`}>
 							About
 						</Link>
 					</li>
-					<li className={` nav-item text-lg text-[#FFFFFFCC]`}>
+					<li
+						className={` font-tstar nav-item text-lg text-[#FFFFFFCC] font-tstar-bold`}
+					>
 						<Link href="/expertise" className={`text-white`}>
 							Expertise
 						</Link>
 					</li>
-					<li className={` nav-item text-lg text-[#FFFFFFCC]`}>
+					<li
+						className={` font-tstar nav-item text-lg text-[#FFFFFFCC] font-tstar-bold`}
+					>
 						<Link href="/program" className={`text-white`}>
 							Program
 						</Link>
 					</li>
-					<li className={` nav-item text-lg text-[#FFFFFFCC]`}>
+					<li
+						className={` font-tstar nav-item text-lg text-[#FFFFFFCC] font-tstar-bold`}
+					>
 						<Link href="/odyssey" className={`text-white`}>
 							Odyssey
 						</Link>
 					</li>
-					<li className={` nav-item text-lg text-[#FFFFFFCC]`}>
+					<li
+						className={` font-tstar nav-item text-lg text-[#FFFFFFCC] font-tstar-bold`}
+					>
 						<Link href="/news" className={`text-white`}>
 							News
 						</Link>
 					</li>
-					<li className={` nav-item text-lg text-[#FFFFFFCC]`}>
+					<li
+						className={` font-tstar nav-item text-lg text-[#FFFFFFCC] font-tstar-bold`}
+					>
 						<Link href="/contact" className={`text-white`}>
 							Contact
 						</Link>
 					</li>
-					<li className={` nav-item text-lg text-[#FFFFFFCC]`}>
+					<li
+						className={` font-tstar nav-item text-lg text-[#FFFFFFCC] font-tstar-bold`}
+					>
 						<Link href="/career" className={`text-white`}>
 							Career
 						</Link>
