@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-action:hover .arrow-bounce {
+	animation: bounceLeftRight 0.6s infinite ease-in-out;
+}
+
+.btn-action:hover .arrow-bounce-vertical {
+	animation: bounceTopDown 0.6s infinite ease-in-out;
+}
+
+@keyframes bounceLeftRight {
+	25% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(5px);
+	}
+}
+
+@keyframes bounceTopDown {
+	25% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(5px);
+	}
+}
+
+.nav-item {
+	@apply relative pb-2;
+}
+
+.nav-item .active-link::before {
+	content: "";
+	width: 6px;
+	height: 6px;
+	background-color: #b92322;
+	border-radius: 100px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
