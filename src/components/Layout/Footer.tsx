@@ -88,10 +88,7 @@ export default function Footer() {
 					</div>
 				</div>
 
-				<div
-					id="expertise"
-					className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400"
-				>
+				<div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
 					<p>&copy; 2024 CompanyName. All rights reserved.</p>
 				</div>
 			</div>

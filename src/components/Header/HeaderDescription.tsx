@@ -13,13 +13,13 @@ const HeaderDescription = () => {
 						<span className="text-[#00000066] text-xs font-bold text-discover">
 							DISCOVER
 						</span>
+						<Image
+							src="/icon/arrow-down-black-xs.svg"
+							width={9}
+							height={3}
+							alt="arrow down black xs"
+						/>
 					</a>
-					<Image
-						src="/icon/arrow-down-black-xs.svg"
-						width={9}
-						height={3}
-						alt="arrow down black xs"
-					/>
 				</div>
 				<div>
 					<p className={`text-[#B92322] text-4xl mb-2 font-tstar-light`}>
