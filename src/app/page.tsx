@@ -1,7 +1,4 @@
-import Navbar from "@/components/Layout/Navbar";
-import Footer from "@/components/Layout/Footer";
-import Header from "@/components/Header/HeaderHome";
-import Expertise from "@/components/Expertise/Expertise";
+import { Navbar, Header, Expertise, News, Footer } from "../components";
 
 export default function Page() {
 	return (
@@ -10,9 +7,9 @@ export default function Page() {
 			<Header />
 
 			<Expertise />
+			<News />
 
-			{/* Quick About Preview */}
-			<section className="py-20 bg-white" style={{ height: "1300px" }}>
+			<section className="py-20 bg-white">
 				<div className="container mx-auto px-6">
 					<div className="grid md:grid-cols-2 gap-12 items-center">
 						<div>
