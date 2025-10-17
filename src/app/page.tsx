@@ -1,10 +1,12 @@
 import Navbar from "@/components/Layout/Navbar";
 import Footer from "@/components/Layout/Footer";
+import Header from "@/components/Header/HeaderHome";
 
 export default function Page() {
 	return (
 		<main className="min-h-screen">
 			<Navbar />
+			<Header />
 
 			{/* Quick About Preview */}
 			<section className="py-20 bg-white" style={{ height: "1300px" }}>
