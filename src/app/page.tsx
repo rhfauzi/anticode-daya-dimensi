@@ -8,6 +8,7 @@ import {
 	Footer,
 	BeAPart,
 	ButtonBackToTop,
+	ButtonWhatsApp,
 } from "../components";
 
 export default function Page() {
@@ -23,6 +24,7 @@ export default function Page() {
 			<Footer />
 
 			<ButtonBackToTop />
+			<ButtonWhatsApp />
 		</main>
 	);
 }

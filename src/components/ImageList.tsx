@@ -6,6 +6,7 @@ const ImageList = ({
 }: {
 	items: {
 		src: string;
+		title: string;
 		alt: string;
 		width: any;
 		height: number;
@@ -18,6 +19,7 @@ const ImageList = ({
 				<a
 					key={item.alt}
 					href={item.link ? item.link : "#"}
+					title={item.title ?? item.alt}
 					target="_blank"
 					rel="noopener noreferrer"
 				>

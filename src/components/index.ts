@@ -12,3 +12,4 @@ export { default as Title } from "./Title";
 
 // Button
 export { default as ButtonBackToTop } from "./Button/BackToTop";
+export { default as ButtonWhatsApp } from "./Button/WhatsAppButton";

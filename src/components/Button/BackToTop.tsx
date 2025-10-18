@@ -18,6 +18,7 @@ const BackToTop = () => {
 		<>
 			{isVisible && (
 				<button
+					title="Back to top"
 					onClick={scrollToTop}
 					className="fixed w-[56px] h-[56px] bg-[#B92322] bottom-6 right-6 z-50 rounded-full flex justify-center items-center text-white shadow-lg transition-all"
 					aria-label="Back to top"
