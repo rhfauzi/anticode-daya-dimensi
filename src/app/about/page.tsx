@@ -2,11 +2,9 @@
 import {
 	Navbar,
 	HeaderAbout,
-	Expertise,
+	ExperienceNumber,
 	News,
-	PortofolioSlider,
 	Footer,
-	BeAPart,
 	ButtonBackToTop,
 	ButtonWhatsApp,
 } from "@/components";
@@ -17,10 +15,8 @@ export default function Page() {
 			<Navbar />
 			<HeaderAbout />
 
-			<Expertise />
-			<PortofolioSlider />
+			<ExperienceNumber />
 			<News />
-			<BeAPart />
 
 			<Footer />
 

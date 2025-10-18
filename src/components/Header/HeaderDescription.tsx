@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { scrollToId } from "@/lib/utils";
+import { NumberList } from "@/components";
+import { numberList } from "@/const/dummyData";
 
 const HeaderDescription = () => {
 	return (
@@ -22,24 +24,8 @@ const HeaderDescription = () => {
 						/>
 					</a>
 				</div>
-				<div>
-					<p className={`text-[#B92322] text-4xl mb-2 font-tstar-light`}>
-						24+ Years
-					</p>
-					<p className="text-[#00000066] text-base">Experience</p>
-				</div>
-				<div>
-					<p className={`text-[#B92322] text-4xl mb-2 font-tstar-light`}>
-						50.000+
-					</p>
-					<p className="text-[#00000066] text-base">Executive Clients</p>
-				</div>
-				<div>
-					<p className={`text-[#B92322] text-4xl mb-2 font-tstar-light`}>
-						400+
-					</p>
-					<p className="text-[#00000066] text-base">Organization Clients</p>
-				</div>
+
+				<NumberList dataSource={numberList} />
 			</div>
 		</React.Fragment>
 	);
