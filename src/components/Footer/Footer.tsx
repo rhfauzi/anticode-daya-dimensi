@@ -1,5 +1,5 @@
 import FooterBottom from "./FooterBottom";
-import ImageList from "./ImageList";
+import ImageList from "../ImageList";
 import Image from "next/image";
 
 const SupportListItems = [
@@ -71,7 +71,7 @@ const Footer = () => {
 				<div className="gap-x-6 flex max-md:flex-wrap max-md:justify-center max-md:gap-4">
 					<ImageList items={SupportListItems} />
 				</div>
-				<div className="gap-x-5 flex items-center gap-4">
+				<div className="gap-x-5 flex items-center gap-4 max-md:flex-wrap max-md:justify-center max-md:gap-4">
 					<ImageList items={SocialListItems} />
 				</div>
 				<div className="max-md:flex max-md:flex-col max-md:justify-center max-md:items-center">

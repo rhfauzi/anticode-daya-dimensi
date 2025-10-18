@@ -30,14 +30,19 @@ const expertiseItems = [
 
 const Expertise = () => {
 	return (
-		<section className="pt-17 px-28 pb-[440px] bg-[#f5f5f5] max-md:p-5">
+		<section className="pt-24 px-28 pb-[440px] bg-[#f5f5f5] max-md:p-5">
 			<div className="grid grid-cols-2 mb-14 max-md:grid-cols-1">
-				<Title
-					title="Expertise"
-					type={"font-tstar-light"}
-					description={`"Organisations who will succeed in the long-run are those who are open to new ideas, embrace innovations, instill compassion in every act and decision, and consistent in advancing humanity through sustainability." - Excerpts from 'Leaders of a New Planet' book.`}
-					style={{}}
-				/>
+				<Title title={`Expertise`} style={{ color: "#000000" }}>
+					<p
+						className="mt-[20px] text-[16px] leading-6"
+						style={{ fontFamily: "Trebuchet MS", color: "#504B49" }}
+					>
+						"Organisations who will succeed in the long-run are those who are
+						open to new ideas, embrace innovations, instill compassion in every
+						act and decision, and consistent in advancing humanity through
+						sustainability." - Excerpts from 'Leaders of a New Planet' book.
+					</p>
+				</Title>
 			</div>
 
 			<div id="expertise" className="grid grid-cols-3 gap-8 max-md:grid-cols-1">
