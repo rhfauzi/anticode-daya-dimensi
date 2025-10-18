@@ -2,17 +2,7 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-
-const NavListItems = [
-	{ href: "/", label: "Home" },
-	{ href: "/about", label: "About" },
-	{ href: "/expertise", label: "Expertise" },
-	{ href: "/program", label: "Program" },
-	{ href: "/odyssey", label: "Odyssey" },
-	{ href: "/news", label: "News" },
-	{ href: "/contact", label: "Contact" },
-	{ href: "/career", label: "Career" },
-];
+import { NavListItems } from "@/const/dummyData";
 
 const Navbar = () => {
 	const pathname = usePathname();

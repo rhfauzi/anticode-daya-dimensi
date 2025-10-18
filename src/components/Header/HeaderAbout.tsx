@@ -1,25 +1,13 @@
 import Image from "next/image";
 import { scrollToId } from "@/lib/utils";
 import { Title, Breadcrumb, ImageList } from "@/components";
+import { HeaderAboutImgList } from "@/const/dummyData";
 
 const containerStyle = {
 	backgroundImage: "url('img/header-about.png')",
 	backgroundSize: "cover",
 	backgroundPosition: "center",
 };
-
-const HeaderImgList = [
-	{
-		src: "/icon/pentagon.svg",
-		alt: "Pentagon 1",
-		className: "absolute top-[151px] left-12",
-	},
-	{
-		src: "/icon/pentagon.svg",
-		alt: "Pentagon 2",
-		className: "absolute top-[297px] left-[-155px] rotate-[35deg]",
-	},
-];
 
 const HeaderAbout = () => {
 	return (
@@ -28,7 +16,7 @@ const HeaderAbout = () => {
 				<div className="bg-[#2F2A2A] flex max-md:h-[500px]">
 					<div className="pt-[100px] px-28 flex flex-col justify-between gap-5">
 						<Breadcrumb className="mb-[150px]" />
-						<ImageList items={HeaderImgList} />
+						<ImageList items={HeaderAboutImgList} />
 						<Title
 							className="mb-[75px]"
 							title={`Force of Progress`}

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { HeaderDescription, Title, ImageList } from "../../components";
+import { HeaderImgList } from "@/const/dummyData";
 
 const containerStyle = {
 	backgroundImage: "url('img/header-home.png')",
@@ -7,29 +8,9 @@ const containerStyle = {
 	backgroundPosition: "center",
 };
 
-const HeaderImgList = [
-	{
-		src: "/logo/unwomen.png",
-		link: "https://www.unwomen.org/",
-		alt: "unwomen",
-		width: 195,
-		height: 64,
-	},
-	{
-		src: "/logo/iso-updated.png",
-		link: "https://www.iso.org/iso-9001-quality-management.html",
-		alt: "iso",
-		width: 260,
-		height: 64,
-	},
-];
-
 const Header = () => {
 	return (
-		<section
-			className="max-md:pb pt-20 h-[700px] max-md:h-[auto]"
-			style={containerStyle}
-		>
+		<section className="max-md:pb pt-20 max-md:h-[auto]" style={containerStyle}>
 			<div className="grid grid-cols-2 max-md:grid-cols-1 px-32 py-20 max-md:p-5">
 				<div>
 					<Title

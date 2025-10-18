@@ -1,32 +1,6 @@
 import Title from "../Title";
 import ExpertiseItem from "./ExpertiseItem";
-
-const expertiseItems = [
-	{
-		icon: "learning.svg",
-		title: "Applied Science & Imagination Centre",
-	},
-	{
-		icon: "diagnostic.svg",
-		title: "Diagnostics and Assessments",
-	},
-	{
-		icon: "transformation.svg",
-		title: "Human Resources & Organizational Transformation",
-	},
-	{
-		icon: "klobility.svg",
-		title: "Klobility",
-	},
-	{
-		icon: "executive.svg",
-		title: "Leadership Development",
-	},
-	{
-		icon: "learning.svg",
-		title: "On-Demand Online Learning",
-	},
-];
+import { expertiseItems } from "@/const/dummyData";
 
 const Expertise = () => {
 	return (

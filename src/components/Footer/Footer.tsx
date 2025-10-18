@@ -1,68 +1,7 @@
 import FooterBottom from "./FooterBottom";
 import ImageList from "../ImageList";
 import Image from "next/image";
-
-const SupportListItems = [
-	{
-		src: "/logo/gptw-certification.png",
-		link: "https://www.greatplacetowork.com/certified-company/1000785",
-		alt: "gptw",
-		width: 35,
-		height: 60,
-	},
-	{
-		src: "/logo/unwomen.png",
-		link: "https://www.unwomen.org/",
-		alt: "unwomen",
-		width: 152,
-		height: 50,
-	},
-	{
-		src: "/logo/iso-updated.png",
-		link: "https://www.iso.org/",
-		alt: "iso updated",
-		width: 206,
-		height: 50,
-	},
-];
-
-const SocialListItems = [
-	{
-		src: "/icon/facebook.svg",
-		link: "https://www.facebook.com/",
-		alt: "facebook",
-		width: 0,
-		height: 32,
-	},
-	{
-		src: "/icon/instagram.svg",
-		link: "https://www.instagram.com/",
-		alt: "instagram",
-		width: 0,
-		height: 32,
-	},
-	{
-		src: "/icon/linkedin.svg",
-		link: "https://www.linkedin.com/",
-		alt: "linkedin",
-		width: 32,
-		height: 32,
-	},
-	{
-		src: "/icon/youtube.svg",
-		link: "https://www.youtube.com/",
-		alt: "youtube",
-		width: 32,
-		height: 32,
-	},
-	{
-		src: "/icon/twitter.svg",
-		link: "https://www.x.com/",
-		alt: "x",
-		width: 32,
-		height: 32,
-	},
-];
+import { SupportListItems, SocialListItems } from "@/const/dummyData";
 
 const Footer = () => {
 	return (
