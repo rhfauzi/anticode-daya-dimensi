@@ -1,4 +1,11 @@
-import { Navbar, Header, Expertise, News, Footer } from "../components";
+import {
+	Navbar,
+	Header,
+	Expertise,
+	News,
+	PortofolioSlider,
+	Footer,
+} from "../components";
 
 export default function Page() {
 	return (
@@ -7,6 +14,7 @@ export default function Page() {
 			<Header />
 
 			<Expertise />
+			<PortofolioSlider />
 			<News />
 
 			<section className="py-20 bg-white">

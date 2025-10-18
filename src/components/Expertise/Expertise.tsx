@@ -30,7 +30,7 @@ const expertiseItems = [
 
 const Expertise = () => {
 	return (
-		<section className="pt-20 px-28 pb-[440px] bg-[#f5f5f5] max-md:p-5">
+		<section className="pt-17 px-28 pb-[440px] bg-[#f5f5f5] max-md:p-5">
 			<div className="grid grid-cols-2 mb-14 max-md:grid-cols-1">
 				<Title
 					title="Expertise"
