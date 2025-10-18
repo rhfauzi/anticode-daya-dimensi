@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Title } from "../components";
+import { Title, ButtonLinkArrow } from "../components";
 
 const bgBeAPart = {
 	backgroundImage: "url('/img/work-ddi.jpg')",
@@ -20,21 +20,12 @@ const BeAPart = () => {
 						</p>
 					</Title>
 
-					<div
-						className="mt-5 flex gap-x-2 items-center btn-action"
-						role="button"
-					>
-						<span className={`font-tstar-bold text-base text-white`}>
-							LEARN MORE
-						</span>
-						<Image
-							src="/icon/arrow-right-white-2.svg"
-							alt="arrow right"
-							width={15}
-							height={5}
-							className="arrow-bounce"
-						/>
-					</div>
+					<ButtonLinkArrow
+						url={"/learn-more"}
+						text="LEARN MORE"
+						arrowImg="/icon/arrow-right-white-2.svg"
+						style={{ color: "#FFFFFF" }}
+					/>
 				</div>
 			</div>
 		</section>

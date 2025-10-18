@@ -1,5 +1,10 @@
+import {
+	Title,
+	ImageList,
+	ButtonLinkArrow,
+	HeaderDescription,
+} from "../../components";
 import Image from "next/image";
-import { HeaderDescription, Title, ImageList } from "../../components";
 import { HeaderImgList } from "@/const/dummyData";
 
 const containerStyle = {
@@ -29,28 +34,18 @@ const Header = () => {
 					</Title>
 
 					<div className="mt-[20px] text-[#FFFFFF] flex w-fit gap-x-16 max-md:flex-col max-md:gap-4">
-						<div className="flex gap-x-3 btn-action" role="button">
-							<span className={`font-tstar text-base`}>
-								LEARN MORE ABOUT US
-							</span>
-							<Image
-								width={15}
-								height={5}
-								src="/icon/arrow-right-white-2.svg"
-								alt="arrow right"
-								className="arrow-bounce"
-							/>
-						</div>
-						<div className="flex gap-x-3 btn-action" role="button">
-							<span className={`font-tstar text-base`}>CONTACT US</span>
-							<Image
-								width={15}
-								height={5}
-								src="/icon/arrow-right-white-2.svg"
-								alt="arrow right"
-								className="arrow-bounce"
-							/>
-						</div>
+						<ButtonLinkArrow
+							url={"/learn-more"}
+							text="LEARN MORE ABOUT US"
+							arrowImg="/icon/arrow-right-white-2.svg"
+							style={{ color: "#FFFFFF" }}
+						/>
+						<ButtonLinkArrow
+							url={"/contact"}
+							text="CONTACT US"
+							arrowImg="/icon/arrow-right-white-2.svg"
+							style={{ color: "#FFFFFF" }}
+						/>
 					</div>
 				</div>
 			</div>

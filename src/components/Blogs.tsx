@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { blogItems } from "@/const/dummyData";
-import { Title, ButtonReadMore } from "@/components";
+import { Title, ButtonLinkArrow } from "@/components";
 
 const Blogs = () => {
 	return (
@@ -27,7 +27,7 @@ const Blogs = () => {
 							</p>
 						</Title>
 
-						{item.url && <ButtonReadMore url={item.url} text="Learn More" />}
+						{item.url && <ButtonLinkArrow url={item.url} text="Learn More" />}
 					</div>
 				))}
 			</div>

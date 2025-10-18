@@ -17,6 +17,6 @@ export { default as ImageList } from "./ImageList";
 export { default as Title } from "./Title";
 
 // Button
-export { default as ButtonBackToTop } from "./Button/BackToTopButton";
-export { default as ButtonWhatsApp } from "./Button/WhatsAppButton";
-export { default as ButtonReadMore } from "./Button/LinkArrowButton";
+export { default as ButtonBackToTop } from "./Button/ButtonBackToTop";
+export { default as ButtonWhatsApp } from "./Button/ButtonWhatsApp";
+export { default as ButtonLinkArrow } from "./Button/ButtonLinkArrow";

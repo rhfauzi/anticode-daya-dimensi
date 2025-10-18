@@ -1,15 +1,19 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 
 const ButtonLinkArrow = ({
 	url = "#",
 	text = "Read More",
 	arrow = true,
+	style = {},
+	arrowImg = "/icon/arrow-right-red-1.svg",
 }: {
 	url?: string;
 	text: string;
 	arrow?: boolean;
+	style?: React.CSSProperties;
+	arrowImg?: string;
 }) => {
 	return (
 		<Link
@@ -17,11 +21,12 @@ const ButtonLinkArrow = ({
 			target="_blank"
 			className="mt-5 flex items-center btn-action gap-x-2"
 			role="button"
+			style={{ color: "#B92322", ...style }}
 		>
-			<span className={`font-tstar-bold text-base text-[#B92322]`}>{text}</span>
+			<span className={`font-tstar-bold text-base`}>{text}</span>
 			{arrow && (
 				<Image
-					src="/icon/arrow-right-red-1.svg"
+					src={arrowImg}
 					alt="arrow right"
 					width={15}
 					height={5}
