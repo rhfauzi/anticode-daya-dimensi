@@ -34,7 +34,7 @@ const Header = () => {
 						style={{ fontSize: "52px" }}
 					>
 						<p
-							className="mt-[20px] text-[16px] leading-6"
+							className="mt-[20px] text-[16px] leading-6 font-normal"
 							style={{ fontFamily: "Trebuchet MS" }}
 						>
 							Daya Dimensi Indonesia is a world-class strategic partner for
@@ -44,7 +44,7 @@ const Header = () => {
 						</p>
 					</Title>
 
-					<div className="mt-[20px] flex w-fit gap-x-16 max-md:flex-col max-md:gap-4">
+					<div className="mt-[20px] text-[#FFFFFF] flex w-fit gap-x-16 max-md:flex-col max-md:gap-4">
 						<div className="flex gap-x-3 btn-action" role="button">
 							<span className={`font-tstar text-base`}>
 								LEARN MORE ABOUT US
