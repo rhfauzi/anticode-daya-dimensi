@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { phoneNumber, message } from "@/const/generalConst";
 
-export default function WhatsAppButton() {
+export function ButtonWhatsApp() {
 	const handleClick = () => {
 		const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
 			message
@@ -20,3 +20,5 @@ export default function WhatsAppButton() {
 		</button>
 	);
 }
+
+export default ButtonWhatsApp;

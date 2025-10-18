@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { scrollToTop } from "@/lib/utils";
 
-const BackToTop = () => {
+const ButtonBackToTop = () => {
 	const [isVisible, setIsVisible] = useState(false);
 
 	useEffect(() => {
@@ -35,4 +35,4 @@ const BackToTop = () => {
 	);
 };
 
-export default BackToTop;
+export default ButtonBackToTop;

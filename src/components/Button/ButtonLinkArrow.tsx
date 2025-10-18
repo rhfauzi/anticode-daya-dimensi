@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const ReadMore = ({
+const ButtonLinkArrow = ({
 	url = "#",
 	text = "Read More",
 	arrow = true,
@@ -32,4 +32,4 @@ const ReadMore = ({
 	);
 };
 
-export default ReadMore;
+export default ButtonLinkArrow;
