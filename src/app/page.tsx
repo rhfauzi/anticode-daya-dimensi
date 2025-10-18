@@ -1,3 +1,4 @@
+"use client";
 import {
 	Navbar,
 	Header,
@@ -6,6 +7,7 @@ import {
 	PortofolioSlider,
 	Footer,
 	BeAPart,
+	ButtonBackToTop,
 } from "../components";
 
 export default function Page() {
@@ -19,6 +21,8 @@ export default function Page() {
 			<News />
 			<BeAPart />
 			<Footer />
+
+			<ButtonBackToTop />
 		</main>
 	);
 }

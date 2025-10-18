@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { scrollToId } from "@/lib/utils";
 
 const HeaderDescription = () => {
 	return (
@@ -9,7 +10,7 @@ const HeaderDescription = () => {
 					className="flex flex-col items-center gap-y-2 btn-action"
 					role="button"
 				>
-					<a href="#expertise">
+					<a onClick={() => scrollToId("expertise")}>
 						<span className="text-[#00000066] text-xs font-bold text-discover">
 							DISCOVER
 						</span>
