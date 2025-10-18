@@ -26,8 +26,8 @@ const ExpertiseItem = ({ icon, title }: IExpertiseItemProps) => {
 					</div>
 					<span className="flex justify-end" role="button">
 						<Image
-							src="/icon/arrow-right-white-md.svg"
-							alt="arrow right white md"
+							src="/icon/arrow-right-white-1.svg"
+							alt="arrow"
 							width={30}
 							height={10}
 						/>

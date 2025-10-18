@@ -29,7 +29,7 @@ const Header = () => {
 							<Image
 								width={15}
 								height={5}
-								src="/icon/arrow-right-white-sm.svg"
+								src="/icon/arrow-right-white-2.svg"
 								alt="arrow right white small"
 								className="arrow-bounce"
 							/>
@@ -39,7 +39,7 @@ const Header = () => {
 							<Image
 								width={15}
 								height={5}
-								src="/icon/arrow-right-white-sm.svg"
+								src="/icon/arrow-right-white-2.svg"
 								alt="arrow right white small"
 								className="arrow-bounce"
 							/>

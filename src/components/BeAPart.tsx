@@ -28,7 +28,7 @@ const BeAPart = () => {
 							LEARN MORE
 						</span>
 						<Image
-							src="/icon/arrow-right-white-sm.svg"
+							src="/icon/arrow-right-white-2.svg"
 							alt="arrow right white sm"
 							width={15}
 							height={5}
