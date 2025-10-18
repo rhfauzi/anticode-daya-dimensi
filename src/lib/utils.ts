@@ -20,3 +20,11 @@ export const scrollToId = (id: string): void => {
 		el.scrollIntoView({ behavior: "smooth" });
 	}
 };
+
+// Fungsi untuk mengubah huruf pertama setiap kata menjadi kapital
+export const capitalizeWords = (str: string): string => {
+	return str
+		.split("-")
+		.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+		.join(" ");
+};

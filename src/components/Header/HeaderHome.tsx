@@ -26,7 +26,10 @@ const HeaderImgList = [
 
 const Header = () => {
 	return (
-		<section className="max-md:pb pt-20" style={containerStyle}>
+		<section
+			className="max-md:pb pt-20 h-[700px] max-md:h-[auto]"
+			style={containerStyle}
+		>
 			<div className="grid grid-cols-2 max-md:grid-cols-1 px-32 py-20 max-md:p-5">
 				<div>
 					<Title
