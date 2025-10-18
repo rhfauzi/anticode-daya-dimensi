@@ -1,29 +1,7 @@
 import Title from "../Title";
 import Image from "next/image";
 import NewsItem from "./NewsItem";
-
-const NewsItems = [
-	{
-		category: "PUBLIC WORKSHOP",
-		date: "25 Feb 2022",
-		title: "Zoompathy vs Zoom-fatigue: Managing Virtual Meeting Burnout",
-	},
-	{
-		category: "BUKA PINTU",
-		date: "20 Oct 2021",
-		title: "Our New Solution To Hire The Right Person For Your Company",
-	},
-	{
-		category: "LIVE WEBINAR",
-		date: "20 Oct 2021",
-		title: "DDI : Among Indonesia's First Signatories of UN WEP",
-	},
-	{
-		category: "BUKA PINTU",
-		date: "20 Oct 2021",
-		title: "Our New Solution To Hire The Right Person For Your Company",
-	},
-];
+import { NewsItems } from "@/const/dummyData";
 
 const News = () => {
 	return (
