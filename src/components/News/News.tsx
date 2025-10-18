@@ -29,11 +29,8 @@ const News = () => {
 	return (
 		<section className="px-32 max-md:p-5 mb-24">
 			<div className="flex justify-between items-center mb-10">
-				<Title
-					title="Upcoming Activities"
-					type={"font-tstar-light"}
-					description={``}
-				/>
+				<Title title={`Upcoming Activities`} style={{ color: "#000000" }} />
+
 				<div className="flex items-center gap-x-2 btn-action" role="button">
 					<span className={`font-tstar-bold text-base text-[#B92322]`}>
 						VIEW ALL
