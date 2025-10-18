@@ -30,8 +30,8 @@ const NewsItem = ({ category, date, title }: INewsItemProps) => {
 			</div>
 			<div className="col-span-3 flex justify-end max-md:col-span-1 max-md:order-2">
 				<Image
-					src="/icon/arrow-right-red-sm.svg"
-					alt="arrow right red sm"
+					src="/icon/arrow-right-red-1.svg"
+					alt="arrow right"
 					width={18}
 					height={6}
 					className="text-end"

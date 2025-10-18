@@ -3,7 +3,7 @@ import {
 	Navbar,
 	HeaderAbout,
 	ExperienceNumber,
-	News,
+	Blogs,
 	Footer,
 	ButtonBackToTop,
 	ButtonWhatsApp,
@@ -16,7 +16,7 @@ export default function Page() {
 			<HeaderAbout />
 
 			<ExperienceNumber />
-			<News />
+			<Blogs />
 
 			<Footer />
 

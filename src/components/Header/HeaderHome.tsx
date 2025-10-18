@@ -37,7 +37,7 @@ const Header = () => {
 								width={15}
 								height={5}
 								src="/icon/arrow-right-white-2.svg"
-								alt="arrow right white small"
+								alt="arrow right"
 								className="arrow-bounce"
 							/>
 						</div>
@@ -47,7 +47,7 @@ const Header = () => {
 								width={15}
 								height={5}
 								src="/icon/arrow-right-white-2.svg"
-								alt="arrow right white small"
+								alt="arrow right"
 								className="arrow-bounce"
 							/>
 						</div>

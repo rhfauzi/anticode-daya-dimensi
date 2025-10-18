@@ -165,3 +165,22 @@ export const numberList = [
 		desc: "Organization Clients",
 	},
 ];
+
+export const blogItems = [
+	{
+		image: "/img/blogs-1.png",
+		alt: "Leaders of a New Planet",
+		title: "Leaders of a New Planet",
+		url: "",
+		description:
+			"It is our intention is to generate leaders whose mission is to advance humanity through fresh ideas, forefront skills, and compassion for future generations. We call them Leaders of a New Planet.",
+	},
+	{
+		image: "/img/blogs-2.png",
+		alt: "Continuous Innovations",
+		title: "Continuous Innovations",
+		url: "/blogs/continuous-innovations",
+		description:
+			"In working with clients, we curate and provide integrated business and leadership solutions. Therefore, we strive to grow our digital solutions to better cater your needs.",
+	},
+];

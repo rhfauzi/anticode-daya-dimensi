@@ -29,7 +29,7 @@ const BeAPart = () => {
 						</span>
 						<Image
 							src="/icon/arrow-right-white-2.svg"
-							alt="arrow right white sm"
+							alt="arrow right"
 							width={15}
 							height={5}
 							className="arrow-bounce"

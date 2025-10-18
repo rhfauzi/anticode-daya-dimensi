@@ -14,7 +14,7 @@ const News = () => {
 						VIEW ALL
 					</span>
 					<Image
-						src="/icon/arrow-right-red-sm.svg"
+						src="/icon/arrow-right-red-1.svg"
 						alt="arrow right"
 						className="arrow-bounce"
 						width={15}
