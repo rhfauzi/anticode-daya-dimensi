@@ -3,15 +3,7 @@ import Image from "next/image";
 const PortofolioSlider = () => {
 	return (
 		<section className="flex flex-row justify-end mb-16 mt-[-240px] z-10 max-md:mt-10 max-md:justify-center max-md:items-center">
-			<div className="w-[80%] h-[598px] bg-[#8B0B04] absolute max-md:w-auto max-md:hidden">
-				<Image
-					src="/svg/portofolio-bg.svg"
-					alt="Portofolio 1"
-					width={0}
-					height={0}
-					className="inset-0 w-full h-full object-cover"
-				/>
-			</div>
+			<div className="w-[80%] h-[598px] bg-[#8B0B04] bg-[url('/svg/portofolio-bg.svg')] absolute max-md:w-auto " />
 			<div className="flex flex-row justify-around items-center w-full h-[598px] px-28 gap-5 z-20 max-md:p-5 max-md:h-full max-md:flex-col max-md:bg-[#8B0B04] max-md:mx-5">
 				<div className="w-[50%] h-[438px] max-md:w-full max-md:h-auto">
 					<Image
