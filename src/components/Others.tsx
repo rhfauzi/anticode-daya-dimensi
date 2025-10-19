@@ -17,12 +17,12 @@ const Others = () => {
 			<div className="grid grid-cols-3 gap-8 bottom-1 h-full items-end">
 				{othersListItems.map((item, index) => (
 					<Title
-						title={"Family"}
+						title={item.title}
 						className="text-[36px] font-normal pt-[60px] border-b-4 border-solid border-[#E0E0E0]"
 					>
 						<>
 							<p className="mt-1 text-base text-[#FFFFFFCC] leading-[24px]">
-								Introducing the DayaLima Family
+								{item.description}
 							</p>
 							{item.url && (
 								<ButtonLinkArrow

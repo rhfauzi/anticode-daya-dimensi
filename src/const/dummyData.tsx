@@ -300,7 +300,7 @@ export const othersListItems = [
 		url: "/family",
 	},
 	{
-		title: "Board of Management",
+		title: `Board of<br />Management`,
 		description: "Meet our Board of Management",
 		buttonText: "LEARN MORE",
 		url: "",
