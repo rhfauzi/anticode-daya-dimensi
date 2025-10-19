@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const PortofolioSlider = () => {
 	return (
-		<section className="flex flex-row justify-end mb-16 mt-[-240px] z-10">
-			<div className="w-[80%] h-[598px] bg-[#8B0B04] absolute ">
+		<section className="flex flex-row justify-end mb-16 mt-[-240px] z-10 max-md:mt-10 max-md:justify-center max-md:items-center">
+			<div className="w-[80%] h-[598px] bg-[#8B0B04] absolute max-md:w-auto max-md:hidden">
 				<Image
 					src="/svg/portofolio-bg.svg"
 					alt="Portofolio 1"
@@ -12,18 +12,18 @@ const PortofolioSlider = () => {
 					className="inset-0 w-full h-full object-cover"
 				/>
 			</div>
-			<div className="flex flex-row justify-around items-center w-full h-[598px] px-28 gap-5  z-20">
-				<div className="w-[50%] h-[438px]">
+			<div className="flex flex-row justify-around items-center w-full h-[598px] px-28 gap-5 z-20 max-md:p-5 max-md:h-full max-md:flex-col max-md:bg-[#8B0B04] max-md:mx-5">
+				<div className="w-[50%] h-[438px] max-md:w-full max-md:h-auto">
 					<Image
 						src="/img/kemendikbudristek.png"
 						alt=""
 						width={584}
 						height={0}
 						sizes="100vw"
-						className="w-[584px] h-auto"
+						className="w-[584px] h-auto max-md:w-full"
 					/>
 				</div>
-				<div className="w-[50%]">
+				<div className="w-[50%] max-md:w-full">
 					<Image
 						src="/logo/tutwuri.png"
 						alt="tut wuri handayani"
