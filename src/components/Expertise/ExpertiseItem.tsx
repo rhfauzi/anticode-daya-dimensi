@@ -5,9 +5,18 @@ interface IExpertiseItemProps {
 	title: string;
 }
 
+const containerStyle = {
+	backgroundImage: "url('/svg/expertise-bg.svg')",
+	backgroundSize: "cover",
+	backgroundPosition: "center",
+};
+
 const ExpertiseItem = ({ icon, title }: IExpertiseItemProps) => {
 	return (
-		<div className="bg-[#8B0B04] relative overflow-hidden transition-all duration-500 group rounded-lg">
+		<div
+			className="bg-[#8B0B04] relative overflow-hidden transition-all duration-500 group rounded-lg"
+			style={containerStyle}
+		>
 			<img
 				src="/img/expertise-1.png"
 				alt="Expertise 1"
