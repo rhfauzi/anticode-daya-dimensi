@@ -4,7 +4,7 @@ import { expertiseItems } from "@/const/dummyData";
 
 const Expertise = () => {
 	return (
-		<section className="pt-24 px-28 pb-[440px] bg-[#f5f5f5] max-md:p-5">
+		<section className="pt-24 px-28 pb-[440px] bg-[#f5f5f5] max-md:p-5 z-0">
 			<div className="grid grid-cols-2 mb-14 max-md:grid-cols-1">
 				<Title title={`Expertise`} style={{ color: "#000000" }}>
 					<p
