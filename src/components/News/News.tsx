@@ -16,7 +16,6 @@ const News = () => {
 					<Image
 						src="/icon/arrow-right-red-1.svg"
 						alt="arrow right"
-						className="arrow-bounce"
 						width={15}
 						height={5}
 					/>
@@ -29,6 +28,7 @@ const News = () => {
 						alt="webinar"
 						width={481}
 						height={481}
+						className="max-md:w-full"
 					/>
 				</div>
 				<div className="col-span-5 grid grid-cols-1 gap-y-10 max-md:col-span-1">

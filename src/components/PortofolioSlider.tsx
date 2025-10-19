@@ -2,13 +2,14 @@ import Image from "next/image";
 
 const PortofolioSlider = () => {
 	return (
-		<section className="grid grid-cols-6 -mt-60 mb-28 max-md:mt-0 max-md:grid-cols-1 relative">
+		<section className="grid grid-cols-6 -mt-60 mb-28 max-md:px-5 max-md:mt-0 max-md:grid-cols-1 relative">
 			<div className="top-1/2 left-0 absolute transform -translate-y-1/2 translate-x-1/4 max-md:static max-md:translate-x-0 max-md:translate-y-0">
 				<Image
 					src="/img/kemendikbudristek.png"
 					alt=""
 					width={584}
 					height={438}
+					className="max-md:w-full"
 				/>
 			</div>
 			<div className="bg-[#B92322] col-start-3 col-end-7 max-md:col-span-1">
