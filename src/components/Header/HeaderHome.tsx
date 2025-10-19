@@ -4,7 +4,6 @@ import {
 	ButtonLinkArrow,
 	HeaderDescription,
 } from "../../components";
-import Image from "next/image";
 import { HeaderImgList } from "@/const/dummyData";
 
 const containerStyle = {
@@ -15,9 +14,12 @@ const containerStyle = {
 
 const Header = () => {
 	return (
-		<section className="max-md:pb pt-20 max-md:h-[auto]" style={containerStyle}>
-			<div className="grid grid-cols-2 max-md:grid-cols-1 px-32 py-20 max-md:p-5">
-				<div>
+		<section
+			className="h-[700px] pt-20 max-md:pb max-md:h-[auto] max-md:flex max-md:flex-col max-md:items-center"
+			style={containerStyle}
+		>
+			<div className="flex flex-row">
+				<div className="w-[70%] h-[464px] px-32 py-[40px] max-md:w-full max-md:h-auto">
 					<Title
 						title={`Adopt Globally,<br/> Adapt Locally`}
 						style={{ fontSize: "52px" }}
@@ -49,10 +51,12 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex gap-x-8 max-md:flex-col max-md:gap-y-6 max-md:items-center">
-				<HeaderDescription />
+			<div className="flex flex-row gap-5 max-md:w-full max-md:p-5 max-md:flex max-md:flex-col max-md:items-center">
+				<div className="w-[70%] h-[156px] flex gap-x-8 max-md:w-full max-md:h-auto max-md:flex-col max-md:gap-y-6 max-md:items-center">
+					<HeaderDescription />
+				</div>
 
-				<div className="flex justify-start items-center">
+				<div className="w-[25%] h-[156px] gap-[20px] py-5 flex justify-start items-center max-md:w-full max-md:h-auto max-md:justify-center">
 					<ImageList items={HeaderImgList} />
 				</div>
 			</div>

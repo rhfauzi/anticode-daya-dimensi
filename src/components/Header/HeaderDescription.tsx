@@ -7,9 +7,9 @@ import { numberList } from "@/const/dummyData";
 const HeaderDescription = () => {
 	return (
 		<React.Fragment>
-			<div className="bg-white px-10 py-11 flex gap-x-16 w-fit max-md:flex-col max-md:w-full max-md:justify-center max-md:items-center max-md:text-center max-md:gap-y-8">
+			<div className="flex flex-row justify-around items-center w-full bg-white px-10 gap-x-16 max-md:py-5 max-md:flex-col max-md:w-full max-md:justify-center max-md:items-center max-md:text-center max-md:gap-y-8">
 				<div
-					className="flex flex-col items-center gap-y-2 btn-action"
+					className="flex flex-col items-center justify-center gap-y-2 btn-action"
 					role="button"
 				>
 					<a onClick={() => scrollToId("expertise")}>

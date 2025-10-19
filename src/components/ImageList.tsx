@@ -10,6 +10,7 @@ interface IImageProps {
 	height?: number;
 	link?: string;
 	className?: string;
+	style?: React.CSSProperties;
 }
 
 const ImageList = ({ items }: { items: IImageProps[] }) => {
@@ -32,7 +33,7 @@ const ImageList = ({ items }: { items: IImageProps[] }) => {
 						alt={item.alt ?? ""}
 						width={item.width ?? 10}
 						height={item.height ?? 10}
-						style={{ width: "100%" }}
+						style={{ width: "100%", ...item.style }}
 					/>
 				</Link>
 			))}
