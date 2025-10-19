@@ -291,3 +291,24 @@ export const clientItems = [
 		className: "w-full h-auto",
 	},
 ];
+
+export const othersListItems = [
+	{
+		title: "Family",
+		description: "Introducing the DayaLima Family",
+		buttonText: "LEARN MORE",
+		url: "/family",
+	},
+	{
+		title: "Board of Management",
+		description: "Meet our Board of Management",
+		buttonText: "LEARN MORE",
+		url: "",
+	},
+	{
+		title: "Partners",
+		description: "Our Trusted Partners",
+		buttonText: "LEARN MORE",
+		url: "",
+	},
+];
