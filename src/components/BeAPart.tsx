@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Title, ButtonLinkArrow } from "../components";
 
 const bgBeAPartStyle = {
