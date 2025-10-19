@@ -4,7 +4,7 @@ import { clientItems } from "@/const/dummyData";
 
 const Client = () => {
 	return (
-		<section className="bg-[#2F2A2A] pl-64 pr-32 pb-[100px] max-md:p-5">
+		<section className="bg-[#2F2A2A] px-28 pr-32 pb-[100px] max-md:p-5">
 			<div className="">
 				<Title
 					title={"Our Clients"}

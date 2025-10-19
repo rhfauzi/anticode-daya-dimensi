@@ -4,6 +4,7 @@ import {
 	Navbar,
 	Footer,
 	Client,
+	Others,
 	Collaborate,
 	HeaderAbout,
 	ButtonWhatsApp,
@@ -21,6 +22,7 @@ export default function Page() {
 			<Blogs />
 			<Collaborate />
 			<Client />
+			<Others />
 
 			<Footer />
 

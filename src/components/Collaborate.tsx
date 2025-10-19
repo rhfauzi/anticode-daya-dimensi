@@ -5,7 +5,7 @@ import { collaborateItems } from "@/const/dummyData";
 
 const Collaborate = () => {
 	return (
-		<section className="bg-[#F9FAFB] pl-64 pr-32 pb-[100px] max-md:p-5">
+		<section className="bg-[#F9FAFB] px-28 pr-32 pb-[100px] max-md:p-5">
 			<div className="">
 				<Title
 					title={"Reasons to Collaborate"}

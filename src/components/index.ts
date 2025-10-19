@@ -14,6 +14,7 @@ export { default as ExperienceNumber } from "./ExperienceNumber";
 export { default as Blogs } from "./Blogs";
 export { default as Collaborate } from "./Collaborate";
 export { default as Client } from "./Client";
+export { default as Others } from "./Others";
 
 export { default as ImageList } from "./ImageList";
 export { default as Title } from "./Title";

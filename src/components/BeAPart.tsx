@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Title, ButtonLinkArrow } from "../components";
 
-const bgBeAPart = {
+const bgBeAPartStyle = {
 	backgroundImage: "url('/img/work-ddi.jpg')",
 	backgroundSize: "cover",
 	backgroundPosition: "center",
@@ -9,7 +9,7 @@ const bgBeAPart = {
 
 const BeAPart = () => {
 	return (
-		<section className="max-md:px-5" style={bgBeAPart}>
+		<section className="max-md:px-5" style={bgBeAPartStyle}>
 			<div className="grid grid-cols-2 h-full max-md:grid-cols-1 inset-0 bg-gradient-to-r from-[#000000CC] to-transparent">
 				<div className="px-28 py-44">
 					<Title title={`Be a Part of <br/> Daya Dimensi Indonesia`}>
