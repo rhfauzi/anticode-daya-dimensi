@@ -22,7 +22,7 @@ const Header = () => {
 				<div className="w-[70%] h-[464px] px-32 py-[40px] max-md:w-full max-md:h-auto">
 					<Title
 						title={`Adopt Globally,<br/> Adapt Locally`}
-						style={{ fontSize: "52px" }}
+						styleCss={{ fontSize: "52px" }}
 					>
 						<p
 							className="mt-[20px] text-[16px] leading-6 font-normal"

@@ -20,7 +20,7 @@ const HeaderAbout = () => {
 						<Title
 							className="mb-[75px]"
 							title={`Force of Progress`}
-							style={{ fontSize: "52px" }}
+							styleCss={{ fontSize: "52px" }}
 						>
 							<p
 								className="mt-[20px] text-[16px] leading-6 font-normal"

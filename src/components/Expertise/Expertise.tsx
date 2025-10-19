@@ -6,7 +6,7 @@ const Expertise = () => {
 	return (
 		<section className="pt-24 px-28 pb-[440px] bg-[#f5f5f5] max-md:p-5 z-0">
 			<div className="grid grid-cols-2 mb-14 max-md:grid-cols-1">
-				<Title title={`Expertise`} style={{ color: "#000000" }}>
+				<Title title={`Expertise`} styleCss={{ color: "#000000" }}>
 					<p
 						className="mt-[20px] text-[16px] leading-6"
 						style={{ fontFamily: "Trebuchet MS", color: "#504B49" }}

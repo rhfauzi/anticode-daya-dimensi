@@ -19,7 +19,7 @@ const Blogs = () => {
 						/>
 						<Title
 							title={item.title}
-							style={{ color: "#000000" }}
+							styleCss={{ color: "#000000" }}
 							className="text-[#000000] text-[36px] font-normal"
 						>
 							<p className="mt-2 text-base text-[#504B49] font-[Trebuchet MS] leading-[24px]">
