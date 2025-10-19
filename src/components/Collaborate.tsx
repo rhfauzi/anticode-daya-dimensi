@@ -9,7 +9,7 @@ const Collaborate = () => {
 			<div className="">
 				<Title
 					title={"Reasons to Collaborate"}
-					style={{ color: "#000000" }}
+					styleCss={{ color: "#000000" }}
 					className="text-[#000000] text-[36px] font-normal pt-[100px]"
 				/>
 
@@ -28,7 +28,7 @@ const Collaborate = () => {
 							/>
 							<Title
 								title={item.title}
-								style={{ color: "#000000" }}
+								styleCss={{ color: "#000000" }}
 								className="text-[#000000] text-[36px] font-normal"
 							>
 								<div className="mt-5 text-base text-[#504B49] leading-[24px]">

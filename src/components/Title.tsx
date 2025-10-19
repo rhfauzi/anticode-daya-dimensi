@@ -1,18 +1,18 @@
 import React, { ReactNode } from "react";
 
 interface ITitleProps {
+	styleCss?: React.CSSProperties;
+	children?: string | ReactNode;
+	className?: string;
 	title: string;
-	style?: any;
-	children?: String | ReactNode;
-	className?: String;
 }
 
 export default function Title(props: ITitleProps) {
-	const { title, style, children, className } = props;
+	const { title, styleCss, children, className } = props;
 
 	return (
 		<div
-			style={{ color: "#ffffff", fontSize: "42px", ...style }}
+			style={{ color: "#ffffff", fontSize: "42px", ...styleCss }}
 			className={`${className}`}
 		>
 			<h1

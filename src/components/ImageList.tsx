@@ -6,7 +6,7 @@ interface IImageProps {
 	src: string;
 	title?: string;
 	alt?: string;
-	width?: any;
+	width?: number;
 	height?: number;
 	link?: string;
 	className?: string;
