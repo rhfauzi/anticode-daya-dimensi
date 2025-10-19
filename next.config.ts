@@ -1,6 +1,11 @@
-/** @type {import('next').NextConfig} */
+// @ts-check
+
+/**
+ * @type {import('next').NextConfig}
+ **/
 const nextConfig = {
 	output: "export",
+	trailingSlash: true,
 };
-/* module.exports = nextConfig*/
-export default nextConfig;
+
+module.exports = nextConfig;
