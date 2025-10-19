@@ -7,9 +7,14 @@ interface IExpertiseItemProps {
 
 const ExpertiseItem = ({ icon, title }: IExpertiseItemProps) => {
 	return (
-		<div className="bg-[#8B0B04] btn-action" role="button">
+		<div className="bg-[#8B0B04] relative overflow-hidden transition-all duration-500 group rounded-lg">
+			<img
+				src="/img/expertise-1.png"
+				alt="Expertise 1"
+				className="absolute inset-0 w-full h-full object-cover transform scale-90 opacity-0 group-hover:scale-110 group-hover:opacity-100 transition-all duration-700"
+			/>
 			<div className="bg-expertise-inner">
-				<div className="relative z-10 flex flex-col justify-between h-[379px] px-6 py-8 max-md:h-[300px]">
+				<div className="relative z-10 flex flex-col justify-between h-[379px] w-full px-6 py-8 max-md:h-[300px]">
 					<div>
 						<Image
 							src={`/icon/${icon}`}
