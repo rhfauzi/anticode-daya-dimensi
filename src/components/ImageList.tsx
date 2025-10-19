@@ -6,8 +6,8 @@ interface IImageProps {
 	src: string;
 	title?: string;
 	alt?: string;
-	width?: any;
-	height?: number;
+	width?: string | number;
+	height?: string | number;
 	link?: string;
 	className?: string;
 	style?: React.CSSProperties;

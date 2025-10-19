@@ -17,9 +17,11 @@ const ExpertiseItem = ({ icon, title }: IExpertiseItemProps) => {
 			className="bg-[#8B0B04] relative overflow-hidden transition-all duration-500 group rounded-lg"
 			style={containerStyle}
 		>
-			<img
+			<Image
 				src="/img/expertise-1.png"
 				alt="Expertise 1"
+				width={0}
+				height={0}
 				className="absolute inset-0 w-full h-full object-cover transform scale-90 opacity-0 group-hover:scale-110 group-hover:opacity-100 transition-all duration-700"
 			/>
 			<div className="bg-expertise-inner">

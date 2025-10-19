@@ -2,7 +2,7 @@ import React, { ReactNode } from "react";
 
 interface ITitleProps {
 	title: string;
-	style?: any;
+	style?: any | string;
 	children?: String | ReactNode;
 	className?: String;
 }

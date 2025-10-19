@@ -24,9 +24,9 @@ const PortofolioSlider = () => {
 						className="mb-5"
 					/>
 					<div className={`mb-6 font-tstar-regular text-white text-2xl`}>
-						"Kolaborasi dalam Program Guru Penggerak sangat meaningful dan
+						&quot;Kolaborasi dalam Program Guru Penggerak sangat meaningful dan
 						impactful untuk perkembangan pendidikan di Indonesia, sehingga perlu
-						untuk dilakukan secara berkelanjutan."
+						untuk dilakukan secara berkelanjutan.&quot;
 					</div>
 					<div className="mb-8 font-tstar-pro-regular text-lg text-white">
 						Kementerian Pendidikan, Budaya, Riset, dan Teknologi
