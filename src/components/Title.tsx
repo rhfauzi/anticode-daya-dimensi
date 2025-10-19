@@ -2,9 +2,9 @@ import React, { ReactNode } from "react";
 
 interface ITitleProps {
 	styleCss?: React.CSSProperties;
-	children?: String | ReactNode;
-	className?: String;
-	title: String;
+	children?: string | ReactNode;
+	className?: string;
+	title: string;
 }
 
 export default function Title(props: ITitleProps) {
