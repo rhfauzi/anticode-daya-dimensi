@@ -1,10 +1,10 @@
 import React, { ReactNode } from "react";
 
 interface ITitleProps {
-	title: string;
 	styleCss?: React.CSSProperties;
 	children?: String | ReactNode;
 	className?: String;
+	title: String;
 }
 
 export default function Title(props: ITitleProps) {
