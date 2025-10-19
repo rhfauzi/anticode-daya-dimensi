@@ -27,6 +27,7 @@ const ImageList = ({ items }: { items: IImageProps[] }) => {
 					<Image
 						key={item.alt}
 						src={item.src}
+						sizes="100vw"
 						className="object-contain"
 						alt={item.alt ?? ""}
 						width={item.width ?? 10}

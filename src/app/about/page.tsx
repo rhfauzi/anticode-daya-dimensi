@@ -1,12 +1,14 @@
 "use client";
 import {
-	Navbar,
-	HeaderAbout,
-	ExperienceNumber,
 	Blogs,
+	Navbar,
 	Footer,
-	ButtonBackToTop,
+	Client,
+	Collaborate,
+	HeaderAbout,
 	ButtonWhatsApp,
+	ButtonBackToTop,
+	ExperienceNumber,
 } from "@/components";
 
 export default function Page() {
@@ -17,6 +19,8 @@ export default function Page() {
 
 			<ExperienceNumber />
 			<Blogs />
+			<Collaborate />
+			<Client />
 
 			<Footer />
 

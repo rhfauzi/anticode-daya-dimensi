@@ -12,6 +12,8 @@ export { default as HeaderAbout } from "./Header/HeaderAbout";
 export { default as Breadcrumb } from "./Breadcrumb";
 export { default as ExperienceNumber } from "./ExperienceNumber";
 export { default as Blogs } from "./Blogs";
+export { default as Collaborate } from "./Collaborate";
+export { default as Client } from "./Client";
 
 export { default as ImageList } from "./ImageList";
 export { default as Title } from "./Title";

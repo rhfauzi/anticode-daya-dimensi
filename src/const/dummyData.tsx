@@ -184,3 +184,110 @@ export const blogItems = [
 			"In working with clients, we curate and provide integrated business and leadership solutions. Therefore, we strive to grow our digital solutions to better cater your needs.",
 	},
 ];
+
+export const collaborateItems = [
+	{
+		title: "Ethical",
+		alt: "Ethical",
+		image: "/icon/collaborate-1.svg",
+		description:
+			"We maintain the confidentiality of our clients' data. We uphold our integrity by practicing zero-tolerance policy for bribery.",
+	},
+	{
+		title: "Reliable",
+		alt: "Reliable",
+		image: "/icon/collaborate-2.svg",
+		description:
+			"We strive to provide solutions that are supported by data and technology.",
+	},
+	{
+		title: "Agile",
+		alt: "Agile",
+		image: "/icon/collaborate-3.svg",
+		description:
+			"We listen to our clients deliberately and deliver bespoke solutions to achieve excellent outcome.",
+	},
+];
+
+export const clientItems = [
+	{
+		src: "/logo/clients-1.png",
+		link: "https://www.astra.com/",
+		alt: "Astra",
+		width: 0,
+		height: 32,
+		className: "w-full h-auto",
+	},
+	{
+		src: "/logo/clients-2.png",
+		link: "https://www.blibli.com/",
+		alt: "Blibli",
+		width: 0,
+		height: 32,
+		className: "w-full h-auto",
+	},
+	{
+		src: "/logo/clients-3.png",
+		link: "https://www.bri.com/",
+		alt: "Bri",
+		width: 32,
+		height: 32,
+		className: "w-full h-auto",
+	},
+	{
+		src: "/logo/clients-4.png",
+		link: "https://www.ifg.com/",
+		alt: "IFG",
+		width: 32,
+		height: 32,
+		className: "w-full h-auto",
+	},
+	{
+		src: "/logo/clients-5.png",
+		link: "https://www.kalbe.com/",
+		alt: "Kalbe",
+		width: 32,
+		height: 32,
+		className: "w-full h-auto",
+	},
+	{
+		src: "/logo/clients-6.png",
+		link: "https://www.tutwuri.com/",
+		alt: "Tutwuri",
+		width: 32,
+		height: 32,
+		className: "w-full h-auto",
+	},
+	{
+		src: "/logo/clients-7.png",
+		link: "https://www.mandiri.com/",
+		alt: "Mandiri",
+		width: 32,
+		height: 32,
+		className: "w-full h-auto",
+	},
+	{
+		src: "/logo/clients-8.png",
+		link: "https://www.min.id/",
+		alt: "minid",
+		width: 32,
+		height: 32,
+		className: "w-full h-auto",
+	},
+	{
+		src: "/logo/clients-9.png",
+		link: "https://www.pertamina.com/",
+		alt: "Pertamina",
+		width: 32,
+		height: 32,
+		className: "w-full h-auto",
+	},
+	{
+		src: "/logo/clients-10.png",
+		link: "https://www.pln.com/",
+		alt: "PLN",
+		width: 32,
+		height: 32,
+		className: "w-full h-auto",
+	},
+];
