@@ -22,6 +22,7 @@ const ExpertiseItem = ({ icon, title }: IExpertiseItemProps) => {
 				alt="Expertise 1"
 				width={0}
 				height={0}
+				sizes="100vw"
 				className="absolute inset-0 w-full h-full object-cover transform scale-90 opacity-0 group-hover:scale-110 group-hover:opacity-100 transition-all duration-700"
 			/>
 			<div className="bg-expertise-inner">
