@@ -1,7 +1,6 @@
 export { default as Navbar } from "./Navbar";
 export { default as Header } from "./Header/HeaderHome";
 export { default as NumberList } from "./NumberList";
-export { default as HeaderDescription } from "./Header/HeaderDescription";
 export { default as Expertise } from "./Expertise/Expertise";
 export { default as News } from "./News/News";
 export { default as PortofolioSlider } from "./PortofolioSlider";

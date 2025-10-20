@@ -12,7 +12,10 @@ const HeaderDescription = ({
 	return (
 		<React.Fragment>
 			{dataSource.map((item, index) => (
-				<div key={index}>
+				<div
+					key={index}
+					className="flex flex-col justify-center items-start max-md:items-center"
+				>
 					<p className={`text-[#B92322] ${titleSize} mb-2 font-tstar-light`}>
 						{item.title}
 					</p>
