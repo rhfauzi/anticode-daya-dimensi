@@ -11,10 +11,10 @@ const othersStyle = {
 const Others = () => {
 	return (
 		<section
-			className="px-28 pr-32 pb-[70px] h-[600px] max-md:p-5"
+			className="px-28 pr-32 pb-[70px] h-[600px] max-md:p-5 max-md:h-auto"
 			style={othersStyle}
 		>
-			<div className="grid grid-cols-3 gap-8 bottom-1 h-full items-end">
+			<div className="grid grid-cols-3 gap-8 bottom-1 h-full items-end max-md:grid-cols-1">
 				{othersListItems.map((item, index) => (
 					<Title
 						key={index}

@@ -6,7 +6,7 @@ import { Title, ButtonLinkArrow } from "@/components";
 const Blogs = () => {
 	return (
 		<section className="pl-64 pr-32 pb-[100px] mt-[-150px] max-md:p-5">
-			<div className="grid grid-cols-2 gap-4">
+			<div className="grid grid-cols-2 gap-4 max-md:grid-cols-1">
 				{blogItems.map((item, index) => (
 					<div key={index}>
 						<Image

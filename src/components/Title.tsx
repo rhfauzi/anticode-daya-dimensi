@@ -13,7 +13,7 @@ export default function Title(props: ITitleProps) {
 	return (
 		<div
 			style={{ color: "#ffffff", fontSize: "42px", ...styleCss }}
-			className={`${className}`}
+			className={`${className ?? ""}`}
 		>
 			<h1
 				className={`mb-2 color-[#ffffff] font-tstar-light leading-[64px] font-[400]`}

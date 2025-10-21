@@ -13,8 +13,8 @@ const HeaderAbout = () => {
 	return (
 		<section className="max-md:pb max-md:h-[auto]" style={containerStyle}>
 			<div className="w-[531px] h-full max-md:pt-[200px] max-md:grid-cols-1 max-md:p-5 max-md:w-[100%]">
-				<div className="bg-[#2F2A2A] flex max-md:h-[500px]">
-					<div className="pt-[100px] px-28 flex flex-col justify-between gap-5">
+				<div className="bg-[#2F2A2A] flex">
+					<div className="pt-[100px] px-28 flex flex-col justify-between gap-5 max-md:px-5">
 						<Breadcrumb className="mb-[150px]" />
 						<ImageList items={HeaderAboutImgList} />
 						<Title

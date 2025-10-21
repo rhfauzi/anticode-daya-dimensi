@@ -13,7 +13,7 @@ const Collaborate = () => {
 					className="text-[#000000] text-[36px] font-normal pt-[100px]"
 				/>
 
-				<div className="grid grid-cols-3 gap-7 mt-[100px]">
+				<div className="grid grid-cols-3 gap-7 mt-[100px] max-md:grid-cols-1">
 					{collaborateItems.map((item, index) => (
 						<div
 							key={index}

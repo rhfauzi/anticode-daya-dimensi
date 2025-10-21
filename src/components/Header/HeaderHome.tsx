@@ -18,7 +18,7 @@ const Header = () => {
 			style={containerStyle}
 		>
 			<div className="flex flex-row">
-				<div className="w-[60%] h-[464px] px-32 py-[40px] max-md:w-full max-md:h-auto">
+				<div className="w-[60%] h-[464px] px-32 py-[40px] max-md:w-full max-md:h-auto max-md:px-5">
 					<Title
 						title={`Adopt Globally,<br/> Adapt Locally`}
 						styleCss={{ fontSize: "52px" }}
@@ -70,7 +70,7 @@ const Header = () => {
 				</div>
 
 				<div className="w-full flex flex-row justify-start gap-5 max-md:flex-col max-md:justify-center">
-					<div className="w-[70%] bg-[#ffffff] gap-[20px] py-5 grid grid-cols-3 max-md:w-full max-md:justify-center">
+					<div className="w-[70%] bg-[#ffffff] gap-[20px] py-5 grid grid-cols-3 max-md:w-full max-md:justify-center max-md:px-5">
 						<NumberList dataSource={numberList} />
 					</div>
 
