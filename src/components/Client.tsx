@@ -11,7 +11,7 @@ const Client = () => {
 					className="text-[36px] font-normal pt-[100px]"
 				/>
 
-				<div className="grid grid-cols-6 gap-7 mt-[100px]">
+				<div className="grid grid-cols-6 gap-7 mt-[100px] max-md:grid-cols-3">
 					<ImageList items={clientItems} />
 				</div>
 			</div>
