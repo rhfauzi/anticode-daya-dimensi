@@ -10,7 +10,7 @@ const BeAPart = () => {
 	return (
 		<section style={bgBeAPartStyle}>
 			<div className="grid grid-cols-2 h-full max-md:grid-cols-1 inset-0 bg-gradient-to-r from-[#000000CC] to-transparent">
-				<div className="px-28 py-44">
+				<div className="px-28 py-44 max-md:px-5">
 					<Title title={`Be a Part of <br/> Daya Dimensi Indonesia`}>
 						<p className="mt-5 text-base text-[#FFFFFFCC] leading-[24px]">
 							Are you the resilient leaders we are searching for? Join Daya
