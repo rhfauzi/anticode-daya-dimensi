@@ -15,7 +15,7 @@ const HeaderAbout = () => {
 			<div className="w-[531px] h-full max-md:pt-[200px] max-md:grid-cols-1 max-md:p-5 max-md:w-[100%]">
 				<div className="bg-[#2F2A2A] flex">
 					<div className="pt-[100px] px-28 flex flex-col justify-between gap-5 max-md:px-5">
-						<Breadcrumb className="mb-[150px]" />
+						<Breadcrumb />
 						<ImageList items={HeaderAboutImgList} />
 						<Title
 							className="mb-[75px]"
